@@ -2,7 +2,7 @@ name: Build Windows Nginx with Modules
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   workflow_dispatch:
     inputs:
       nginx_version:
